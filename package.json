@@ -1,11 +1,11 @@
 {
-    "name": "restberry-orm-mongoose",
+    "name": "restberry-mongoose",
     "version": "0.1.0",
     "description": "",
     "main": "index.js",
     "repository": {
         "type": "git",
-        "url": "https://github.com/materik/restberry-orm-mongoose.git"
+        "url": "https://github.com/materik/restberry-mongoose.git"
     },
     "keywords": [
         "restberry",
@@ -23,12 +23,12 @@
     ],
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/materik/restberry-orm-mongoose/issues"
+        "url": "https://github.com/materik/restberry-mongoose/issues"
     },
     "dependencies": {
         "mongoose": "3.8.x",
         "restberry-errors": "0.1.x",
-        "restberry-orm": "0.1.x",
+        "restberry-modules": "0.1.x",
         "restberry-utils": "0.1.x",
         "underscore": "1.5.x",
         "underscore.string": "2.3.x"

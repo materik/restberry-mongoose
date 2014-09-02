@@ -1,8 +1,8 @@
-Restberry-ORM-Mongoose
-======================
+Restberry-Mongoose
+==================
 
 ## Install
 
 ```
-npm install restberry-orm-mongoose
+npm install restberry-mongoose
 ```
