@@ -16,7 +16,7 @@
         "mongoose": "3.8.x",
         "restberry-errors": "0.1.x",
         "restberry-modules": "0.1.x",
-        "underscore": "1.5.x",
+        "underscore": "1.5.x"
     },
     "description": "Mongoose wrapper for Restberry",
     "homepage": "http://restberry.com",
