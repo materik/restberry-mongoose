@@ -1,8 +1,8 @@
 Restberry-Mongoose
 ==================
 
-Mongoose wrapper for Restberry. This package implements the ODM interface of
-Restberry-Modules and can be worked with Restberry.
+Mongoose wrapper for Restberry ODM. This package implements the ODM interface of
+Restberry-Modules and can be used by Restberry.
 
 ## Install
 

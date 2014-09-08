@@ -18,11 +18,11 @@
         "restberry-modules": "0.1.x",
         "underscore": "1.5.x"
     },
-    "description": "Mongoose wrapper for Restberry",
+    "description": "Mongoose wrapper for Restberry ODM",
     "homepage": "http://restberry.com",
     "keywords": [
-        "restberry",
-        "mongoose"
+        "mongoose",
+        "restberry"
     ],
     "license": "MIT",
     "main": "index.js",
