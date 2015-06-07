@@ -14,7 +14,6 @@
     ],
     "dependencies": {
         "mongoose": "3.8.x",
-        "restberry-modules": "0.2.x",
         "underscore": "1.8.x"
     },
     "description": "Mongoose wrapper for Restberry ODM",
@@ -30,5 +29,5 @@
         "type": "git",
         "url": "https://github.com/materik/restberry-mongoose.git"
     },
-    "version": "3.8.3"
+    "version": "3.8.10"
 }

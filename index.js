@@ -1,13 +1,10 @@
 var _ = require('underscore');
-var modules = require('restberry-modules');
 var mongoose = require('mongoose');
 
 function RestberryMongoose() {
     this.mongoose = mongoose;
     this.ObjectId = mongoose.Schema.Types.ObjectId;
 };
-
-RestberryMongoose.prototype.__proto__ = modules.odm.prototype;
 
 // TODO(materik): make nicer...
 RestberryMongoose.prototype._getFieldNamesAll = function(schema) {
