@@ -2,6 +2,7 @@ var _ = require('underscore');
 var mongoose = require('mongoose');
 
 function RestberryMongoose() {
+    this._configured = false;
     this.mongoose = mongoose;
     this.ObjectId = mongoose.Schema.Types.ObjectId;
 };
@@ -38,6 +39,16 @@ RestberryMongoose.prototype._toObject = function(obj) {
         }
     });
     return obj;
+};
+
+RestberryMongoose.prototype.config = function(next) {
+    if (!this._configured) {
+        this._configured = true;
+        if (next) {
+            next(this);
+        }
+    }
+    return this;
 };
 
 RestberryMongoose.prototype.connect = function(dbname) {
@@ -170,11 +181,6 @@ RestberryMongoose.prototype.singularName = function(model) {
 
 RestberryMongoose.prototype.toObject = function(obj) {
     return this._toObject(obj.toObject());
-};
-
-RestberryMongoose.prototype.use = function(next) {
-    if (next)  next(this);
-    return this;
 };
 
 module.exports = exports = new RestberryMongoose;
