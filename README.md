@@ -3,7 +3,7 @@ Restberry-Mongoose
 
 [![](https://img.shields.io/npm/v/restberry-mongoose.svg)](https://www.npmjs.com/package/restberry-mongoose) [![](https://img.shields.io/npm/dm/restberry-mongoose.svg)](https://www.npmjs.com/package/restberry-mongoose)
 
-Mongoose wrapper for Restberry.
+Restberry ODM wrapper for mongoose.
 
 ## Install
 
